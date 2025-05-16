@@ -3,7 +3,7 @@
 # Set restrictive umask
 umask 077
 
-GPG_FILE="$HOME/pass.gpg"
+GPG_FILE="/path/2/your/gpg/file"
 
 if [ ! -f "$GPG_FILE" ]; then
     echo "Password file missing" >&2
